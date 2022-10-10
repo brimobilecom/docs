@@ -1,11 +1,16 @@
 # Content model for GitHub Docs
 
-_Full TOC :arrow_upper_left:_
+pull_request_target:
+    paths:
+      - 'package*.json'
+      - 'Gemfile*'
+      - 'Dockerfile'
+      - '.github/workflows/**'
+  pull_request_review:
+    types:
+      - edited
+      - submitted
 
-- [Introduction](#introduction)
-- [Content structure](#content-structure)
-- [Content types](#content-types)
-- [Contents of a GitHub Docs article](#contents-of-a-github-docs-article)
 
 ## Introduction
 
